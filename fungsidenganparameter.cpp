@@ -11,3 +11,7 @@ void input(){
     cout << "Masukkan luas : ";
     cin >> r;
 }
+
+int luaslingkaran(int r){
+    return r;
+}
