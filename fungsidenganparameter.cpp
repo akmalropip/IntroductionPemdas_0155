@@ -23,3 +23,9 @@ int jumlah(int phi, int r, int luas){
 void output(){
     cout << "Hasilnya : " << jumlah(phi,r,luaslingkaran(r)) << endl;
 }
+
+int main(){ //mulai
+    input();
+    output();
+    cout << "Hasilnya" << luaslingkaran(r) << endl;
+} //selesai
