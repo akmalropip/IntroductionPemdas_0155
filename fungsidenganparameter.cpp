@@ -19,3 +19,7 @@ int luaslingkaran(int r){
 int jumlah(int phi, int r, int luas){
     return phi*r*luas;
 }
+
+void output(){
+    cout << "Hasilnya : " << jumlah(phi,r,luaslingkaran(r)) << endl;
+}
