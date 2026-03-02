@@ -15,3 +15,7 @@ void input(){
 int luaslingkaran(int r){
     return r;
 }
+
+int jumlah(int phi, int r, int luas){
+    return phi*r*luas;
+}
